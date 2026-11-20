@@ -1,0 +1,12 @@
+{
+  "name": "canvas-2d-studio-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test-stills": "node render2d.mjs ../projects/calibration_test --stills --at 0.15,0.5,0.85"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
