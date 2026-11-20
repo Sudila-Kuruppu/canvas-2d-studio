@@ -20,3 +20,13 @@ Support BOTH formats seamlessly in every project:
    `node engine/render2d.mjs projects/<name> --stills --at 0.15,0.5,0.85 --size 1280x720`
 2. Inspect `sheet.jpg` visually before rendering full MP4s.
 3. Render full MP4s in both `1920x1080` and `1080x1920` when requested.
+
+## 4. GitHub Repository & Session Continuity
+- This folder is the standalone Git repository for **Canvas 2D Animation Studio**.
+- Canonical GitHub repository: https://github.com/Sudila-Kuruppu/canvas-2d-studio
+- GitHub owner/account: `Sudila-Kuruppu`; the repository is **public**.
+- Remote name: `origin` → `https://github.com/Sudila-Kuruppu/canvas-2d-studio.git`
+- Default branch: `main`; the local `main` branch tracks `origin/main`.
+- Treat the GitHub URL above as the canonical upstream. Do not initialize another repository or replace `origin` unless the user explicitly asks.
+- When publishing requested changes, commit to `main` and push to `origin/main` after checking that secrets, `node_modules/`, and generated `projects/*/out/` files are excluded.
+- The repository-local commit identity is `Sudila Kuruppu <223135461+Sudila-Kuruppu@users.noreply.github.com>`.
